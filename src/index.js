@@ -1,7 +1,6 @@
 import Hangman from './hangman'
 import { wordList, imageList } from './hangman'
 import getPuzzle from './requests'
-import validator from 'validator';
 
 // each letter press cues this event
 typedLetter.addEventListener('keypress', function (e) {
